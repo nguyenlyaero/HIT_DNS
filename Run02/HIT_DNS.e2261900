@@ -1,0 +1,6 @@
+{Error using fread
+Invalid file identifier. Use fopen to generate a valid file identifier.
+
+Error in read_fortran_box (line 3)
+dat = fread(fid,nx*ny*nz,dtype);
+} 

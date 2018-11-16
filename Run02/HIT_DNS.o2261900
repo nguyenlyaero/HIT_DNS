@@ -1,0 +1,24 @@
+
+                            < M A T L A B (R) >
+                  Copyright 1984-2018 The MathWorks, Inc.
+                   R2018a (9.4.0.813654) 64-bit (glnxa64)
+                             February 23, 2018
+
+ 
+To get started, type one of these: helpwin, helpdesk, or demo.
+For product information, visit www.mathworks.com.
+ 
+>> >> [Warning: P-file /home1/apps/matlab/2018a/toolbox/matlab/strfun/strcat.p is
+older than MATLAB file /home1/apps/matlab/2018a/toolbox/matlab/strfun/strcat.m.
+/home1/apps/matlab/2018a/toolbox/matlab/strfun/strcat.p may be obsolete and may
+need to be regenerated.
+Type "help pcode" for information about generating P-files.] 
+[> In path (line 71)
+  In addpath (line 96)] 
+>> >> >> [Warning: P-file /home1/apps/matlab/2018a/toolbox/matlab/strfun/num2str.p is
+older than MATLAB file
+/home1/apps/matlab/2018a/toolbox/matlab/strfun/num2str.m.
+/home1/apps/matlab/2018a/toolbox/matlab/strfun/num2str.p may be obsolete and
+may need to be regenerated.
+Type "help pcode" for information about generating P-files.] 
+>> 
