@@ -1,6 +1,6 @@
 clear; clc;
 addpath('/scratch/06005/nguyenly/HIT_DNS/PadeOps_output');
-addpath('/home1/06005/nguyenly/PadeOps/MATLAB');
+addpath('../MATLAB');
 
 uMat=zeros(384, 384, 384, 37);
 vMat=zeros(384, 384, 384, 37);

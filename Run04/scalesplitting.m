@@ -1,7 +1,7 @@
 clear; clc;
 % addpath('~/HIT_DNS/MATLAB/');
 addpath('/scratch/06005/nguyenly/HIT_DNS/PadeOps_output');
-addpath('/home1/06005/nguyenly/PadeOps/MATLAB');
+addpath('../MATLAB');
 
 Run=4;
 N=384;

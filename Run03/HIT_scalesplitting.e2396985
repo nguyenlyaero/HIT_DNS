@@ -1,3 +1,0 @@
-MATLAB: management.cpp:671: find: Assertion `' failed.
-MATLAB: management.cpp:671: find: Assertion `' failed.
-/tmp/slurmd/job2396985/slurm_script: line 19: 391871 Aborted                 matlab -nodesktop -nodisplay -nosplash < scalesplitting.m

@@ -1,6 +1,6 @@
 clear; clc;
 addpath('/scratch/06005/nguyenly/HIT_DNS/PadeOps_output');
-addpath('/home1/06005/nguyenly/PadeOps/MATLAB');
+addpath('../MATLAB');
 
 % Read from Restart File
 u0 = read_fortran_box('RESTART_Run04_u.000000', 384, 384, 384, 'double');

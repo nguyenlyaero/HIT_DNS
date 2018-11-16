@@ -3,8 +3,8 @@ clear; clc;
 addpath('/scratch/06005/nguyenly/HIT_DNS/PadeOps_output');
 addpath('../MATLAB');
 
-Run=4;
-N=384;
+Run=5;
+N=512;
 Re=114.85;
 Nsample=10;
 tvec=zeros(Nsample,1);
@@ -13,10 +13,10 @@ I2PdfMat=zeros(Nsample,500);
 
 for n=1:Nsample
 % Read from file
-u = read_fortran_box(['Run0' num2str(Run, '%d') '_uVel_t00' num2str(49+2*(n-1),'%02d') '00.out'], N, N, N, 'double');
-v = read_fortran_box(['Run0' num2str(Run, '%d') '_vVel_t00' num2str(49+2*(n-1),'%02d') '00.out'], N, N, N, 'double');
-w = read_fortran_box(['Run0' num2str(Run, '%d') '_wVel_t00' num2str(49+2*(n-1),'%02d') '00.out'], N, N, N, 'double');
-fid =fopen(['Run0' num2str(Run, '%d') '_info_t00' num2str(49+2*(n-1),'%02d') '00.out']);
+u = read_fortran_box(['Run0' num2str(Run, '%d') '_uVel_t00' num2str(48+2*(n-1),'%02d') '00.out'], N, N, N, 'double');
+v = read_fortran_box(['Run0' num2str(Run, '%d') '_vVel_t00' num2str(48+2*(n-1),'%02d') '00.out'], N, N, N, 'double');
+w = read_fortran_box(['Run0' num2str(Run, '%d') '_wVel_t00' num2str(48+2*(n-1),'%02d') '00.out'], N, N, N, 'double');
+fid =fopen(['Run0' num2str(Run, '%d') '_info_t00' num2str(48+2*(n-1),'%02d') '00.out']);
 t=fscanf(fid,'%f'); t=t(1);
 tvec(n)=t;
 
