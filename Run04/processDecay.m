@@ -2,11 +2,11 @@ clear; clc;
 addpath('/scratch/06005/nguyenly/HIT_DNS/PadeOps_output');
 addpath('../MATLAB');
 
-Run=3;
-N=256;
+Run=4;
+N=384;
 Re=114.85;
-N0=70;
-Nsample=16;
+N0=60;
+Nsample=20;
 % Read from Last Steady Restart File
 u0 = read_fortran_box(['RESTART_Run0' num2str(Run, '%d') '_u.00' num2str(N0,'%02d') '00'], N, N, N, 'double');
 v0 = read_fortran_box(['RESTART_Run0' num2str(Run, '%d') '_v.00' num2str(N0,'%02d') '00'], N, N, N, 'double');
