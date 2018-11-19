@@ -115,7 +115,7 @@ legendCell=cellstr(num2str(tvec', 't=%f'));
 legendCell={'t=0', legendCell};
 legend(legendCell);
 hold off;
-saveas(gcf,'ESpectraDecay.fig');
+saveas(gcf,'d');
 close;
         
 % Plot Avg Enstrophy Spectrum
