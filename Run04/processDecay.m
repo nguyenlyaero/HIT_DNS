@@ -137,7 +137,7 @@ close;
 
 % Plot TKE vs scaled time
 tvec=[0; tvec];
-Evec=[Eman0; Evec];
+Evec=[Emean0; Evec];
 epsilonvec=[epsilon0; epsilonvec];
 figure;
 title('TKE');
