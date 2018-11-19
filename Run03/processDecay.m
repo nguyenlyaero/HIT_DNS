@@ -147,4 +147,4 @@ ylabel('TKE');
 saveas(gcf,'TKEDecay.fig');
 close;
 
-save('decay.mat', 'Emat', 'kline', 'Omegamat', 'tvec', 'Evec', 'epsilonvec');
+save('decay.mat', 'EMat', 'kline', 'OmegaMat', 'tvec', 'Evec', 'epsilonvec');
