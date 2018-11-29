@@ -106,16 +106,16 @@ for j=1:length(kcovec)
     ylim([1e-5; inf]);
     xlabel('I_1');
     ylabel('PDF');
-    title(['I1 (k_{co}=2/3*' num2str('%d',2^(j+2)) ')']);
-    saveas(gcf, ['I1Pdf' num2str('%d',2^(j+2)) '.fig']);
+    title(['I1 (k_{co}=2/3*' num2str(2^(j+2),'%d') ')']);
+    saveas(gcf, ['I1Pdf' num2str(2^(j+2),'%d') '.fig']);
 
     figure;
     semilogy(Iline2,I2Pdf);
     ylim([1e-5; inf]);
     xlabel('I_2');
     ylabel('PDF');
-    title(['I2 (k_{co}=2/3*' num2str('%d',2^(j+2)) ')']);
-    saveas(gcf, ['I2Pdf' num2str('%d',2^(j+2)) '.fig']);
+    title(['I2 (k_{co}=2/3*' num2str(2^(j+2),'%d') ')']);
+    saveas(gcf, ['I2Pdf' num2str(2^(j+2),'%d') '.fig']);
     
     I1PdfMatvskco(j,:)=I1Pdf;
     Iline1Matvskco(j,:)=Iline1;
