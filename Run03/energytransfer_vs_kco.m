@@ -103,7 +103,6 @@ for j=1:length(kcovec)
     
     figure;
     semilogy(Iline1,I1Pdf);
-    ylim([1e-5; inf]);
     xlabel('I_1');
     ylabel('PDF');
     title(['I1 (k_{co}=2/3*' num2str(2^(j+2),'%d') ')']);
@@ -111,7 +110,6 @@ for j=1:length(kcovec)
 
     figure;
     semilogy(Iline2,I2Pdf);
-    ylim([1e-5; inf]);
     xlabel('I_2');
     ylabel('PDF');
     title(['I2 (k_{co}=2/3*' num2str(2^(j+2),'%d') ')']);
